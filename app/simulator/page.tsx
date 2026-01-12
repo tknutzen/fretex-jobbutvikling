@@ -348,6 +348,57 @@ export default function SimulatorPage() {
                 </div>
               )}
 
+              {/* Job Seeker Profile (only for phase-3a) */}
+              {selectedPhase === "phase-3a" && currentScenario?.jobSeekerProfile && (
+                <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
+                  <h3 className="font-medium text-blue-800 mb-2">
+                    Jobbsøker: {currentScenario.jobSeekerProfile.name} ({currentScenario.jobSeekerProfile.age} år)
+                  </h3>
+                  <p className="text-blue-700 text-sm mb-2">
+                    {currentScenario.jobSeekerProfile.background}
+                  </p>
+                  <div className="grid sm:grid-cols-2 gap-3 text-sm">
+                    <div>
+                      <p className="font-medium text-blue-800">Styrker:</p>
+                      <ul className="text-blue-700 list-disc list-inside">
+                        {currentScenario.jobSeekerProfile.strengths.map((s, i) => (
+                          <li key={i}>{s}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <p className="font-medium text-blue-800">Utfordringer:</p>
+                      <ul className="text-blue-700 list-disc list-inside">
+                        {currentScenario.jobSeekerProfile.challenges.map((c, i) => (
+                          <li key={i}>{c}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  <p className="text-blue-700 text-sm mt-2">
+                    <span className="font-medium">Ønsker:</span> {currentScenario.jobSeekerProfile.preferences}
+                  </p>
+                </div>
+              )}
+
+              {/* Employer Profile (only for phase-3a) */}
+              {selectedPhase === "phase-3a" && currentScenario?.employerProfile && (
+                <div className="bg-amber-50 rounded-xl p-4 border border-amber-200">
+                  <h3 className="font-medium text-amber-800 mb-2">
+                    Arbeidsgiver: {EMPLOYER.label}
+                  </h3>
+                  <p className="text-amber-700 text-sm mb-2">
+                    {currentScenario.employerProfile.summary}
+                  </p>
+                  <p className="text-amber-700 text-sm">
+                    <span className="font-medium">Behov:</span> {currentScenario.employerProfile.currentNeed}
+                  </p>
+                  <div className="mt-2 text-sm text-amber-700">
+                    <p><span className="font-medium">Fysisk miljø:</span> {currentScenario.employerProfile.workEnv.physical}</p>
+                  </div>
+                </div>
+              )}
+
               {/* Start Button */}
               <button
                 onClick={handleStart}

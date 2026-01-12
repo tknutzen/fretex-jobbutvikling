@@ -11,11 +11,21 @@ export interface EmployerProfile {
   currentNeed: string;
 }
 
+export interface JobSeekerProfile {
+  name: string;
+  age: number;
+  background: string;
+  strengths: string[];
+  challenges: string[];
+  preferences: string;
+}
+
 export interface ScenarioDefinition {
   description: string;
   shortDescription: string;
   managerName: string;
   employerProfile?: EmployerProfile;
+  jobSeekerProfile?: JobSeekerProfile;
 }
 
 export interface Phase {
@@ -114,6 +124,22 @@ export const PHASES: Phase[] = [
           currentNeed:
             "Behov for ekstrahjelp til kasse og varepåfylling, særlig ettermiddager, kvelder og helger.",
         },
+        jobSeekerProfile: {
+          name: "Kristian",
+          age: 23,
+          background: "Fullført videregående. Har jobbet litt i kiosk tidligere, men har vært uten jobb det siste året.",
+          strengths: [
+            "Punktlig og pålitelig",
+            "Liker å jobbe med mennesker",
+            "Erfaring med kasse fra kiosk",
+            "Fleksibel på arbeidstider",
+          ],
+          challenges: [
+            "Har hatt en periode med lite struktur i hverdagen",
+            "Kan bli litt stresset i veldig hektiske situasjoner",
+          ],
+          preferences: "Ønsker deltidsjobb (60-80%) på ettermiddag/kveld. Trives best med varierte oppgaver.",
+        },
       },
       Moderate: {
         description:
@@ -140,6 +166,22 @@ export const PHASES: Phase[] = [
           currentNeed:
             "Behov for ekstrahjelp til kasse og varepåfylling, særlig ettermiddager, kvelder og helger.",
         },
+        jobSeekerProfile: {
+          name: "Kristian",
+          age: 23,
+          background: "Fullført videregående. Har jobbet litt i kiosk tidligere, men har vært uten jobb det siste året.",
+          strengths: [
+            "Punktlig og pålitelig",
+            "Liker å jobbe med mennesker",
+            "Erfaring med kasse fra kiosk",
+            "Fleksibel på arbeidstider",
+          ],
+          challenges: [
+            "Har hatt en periode med lite struktur i hverdagen",
+            "Kan bli litt stresset i veldig hektiske situasjoner",
+          ],
+          preferences: "Ønsker deltidsjobb (60-80%) på ettermiddag/kveld. Trives best med varierte oppgaver.",
+        },
       },
       Difficult: {
         description:
@@ -165,6 +207,22 @@ export const PHASES: Phase[] = [
           },
           currentNeed:
             "Behov for ekstrahjelp til kasse og varepåfylling, særlig ettermiddager, kvelder og helger.",
+        },
+        jobSeekerProfile: {
+          name: "Kristian",
+          age: 23,
+          background: "Fullført videregående. Har jobbet litt i kiosk tidligere, men har vært uten jobb det siste året.",
+          strengths: [
+            "Punktlig og pålitelig",
+            "Liker å jobbe med mennesker",
+            "Erfaring med kasse fra kiosk",
+            "Fleksibel på arbeidstider",
+          ],
+          challenges: [
+            "Har hatt en periode med lite struktur i hverdagen",
+            "Kan bli litt stresset i veldig hektiske situasjoner",
+          ],
+          preferences: "Ønsker deltidsjobb (60-80%) på ettermiddag/kveld. Trives best med varierte oppgaver.",
         },
       },
     },
