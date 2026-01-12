@@ -259,22 +259,24 @@ export default function SimulatorPage() {
     <main className="min-h-screen bg-slate-50 py-8 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
-        <div className="flex items-center gap-4 mb-8">
+        <div className="text-center mb-10">
           <Image
             src="/fretex.png"
             alt="Fretex"
-            width={60}
-            height={60}
-            className="rounded-lg"
+            width={180}
+            height={180}
+            className="mx-auto mb-6"
           />
-          <div>
-            <h1 className="text-3xl font-bold text-slate-800">
-              Jobbkonsulent Simulator
-            </h1>
-            <p className="text-slate-600">
-              Tren på samtaler med arbeidsgivere
-            </p>
-          </div>
+          <h1 className="text-4xl font-bold text-slate-800 mb-4">
+            Jobbutvikling-simulator
+          </h1>
+          <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
+            Du er en jobbkonsulent som skal gjennomføre samtaler med en arbeidsgiver.
+            Du må først velge fase og vanskelighetsgrad. Deretter starter du samtalen
+            ved å skrive inn tekst i meldingsfeltet. Når du avslutter samtalen får du
+            en rapport som du kan bruke til å forbedre deg. Husk å bruke
+            jobbutviklings-teknikkene. Lykke til!
+          </p>
         </div>
 
         {/* Setup */}
