@@ -37,14 +37,14 @@ export const PHASES: Phase[] = [
     scenarios: {
       Easy: {
         description:
-          "Jobbkonsulenten oppsøker Rema 1000 i en rolig periode på formiddagen og spør etter den som har personalansvar. Daglig leder, Kari Johansen, kommer ut, presenterer seg med fullt navn og er positiv til å høre kort hva dette gjelder. Hun er åpen for samarbeid og foreslår selv et kort oppfølgingsmøte på ca. 20 minutter, og er fleksibel på å finne et annet tidspunkt hvis forslaget ikke passer. Første kontakt går direkte via Kari (ingen mellomledd).",
+          "Jobbkonsulenten oppsøker Rema 1000 i en rolig periode på formiddagen og spør etter den som har personalansvar. Daglig leder, Kari Johansen, kommer ut, presenterer seg med fullt navn og er positiv til å høre kort hva dette gjelder. Hun er åpen for å bli bedre kjent og foreslår selv et kort oppfølgingsmøte på ca. 20 minutter, og er fleksibel på å finne et annet tidspunkt hvis forslaget ikke passer. Første kontakt går direkte via Kari (ingen mellomledd).",
         shortDescription:
-          "Du oppsøker Rema 1000 i en rolig periode for å ta første direkte kontakt med daglig leder om mulig samarbeid.",
+          "Du oppsøker Rema 1000 i en rolig periode for å ta første direkte kontakt med daglig leder og bli bedre kjent med butikken.",
         managerName: "Kari Johansen",
       },
       Moderate: {
         description:
-          "Jobbkonsulenten kommer inn på ettermiddagen når det er travlere. Første kontakt er kassamedarbeideren Ali Hussein, som henter daglig leder. Daglig leder presenterer seg som «daglig leder» uten å oppgi navnet sitt, og er tydelig på at hun får mange henvendelser og må vite raskt hva dette gjelder. Hvis jobbkonsulenten på en god måte spør om navnet hennes og kort, konkret forklarer hensikten (relasjonsbygging og jobbmuligheter på sikt), deler hun navnet sitt (Kari Johansen). Hun foreslår ikke selv et møte, men blir nøkternt positiv til et kort oppfølgingsmøte og hjelpsom med å finne tidspunkt dersom jobbkonsulenten kommer med et konkret og godt begrunnet forslag.",
+          "Jobbkonsulenten kommer inn på ettermiddagen når det er travlere. Første kontakt er kassamedarbeideren Ali Hussein, som henter daglig leder. Daglig leder presenterer seg som «daglig leder» uten å oppgi navnet sitt, og er tydelig på at hun får mange henvendelser og må vite raskt hva dette gjelder. Hvis jobbkonsulenten på en god måte spør om navnet hennes og kort, konkret forklarer hensikten (å lære mer om butikken og mulige jobbmuligheter på sikt), deler hun navnet sitt (Kari Johansen). Hun foreslår ikke selv et møte, men blir nøkternt positiv til et kort oppfølgingsmøte og hjelpsom med å finne tidspunkt dersom jobbkonsulenten kommer med et konkret og godt begrunnet forslag.",
         shortDescription:
           "Du besøker Rema 1000 på et travlere tidspunkt og forsøker å etablere første kontakt med daglig leder via kassamedarbeider.",
         managerName: "Kari Johansen",
@@ -78,9 +78,9 @@ export const PHASES: Phase[] = [
       },
       Difficult: {
         description:
-          "Jobbkonsulenten kommer til et møte med en daglig leder som er skeptisk på grunn av tidligere negative erfaringer med tiltak. Hun presenterer seg uten navn og uttrykker tidlig at tidligere samarbeid har kostet mer enn det har gitt. Navnet hennes (Kari Johansen) kommer først fram hvis jobbkonsulenten viser oppriktig interesse for hennes erfaringer, anerkjenner risiko og lytter nøye før han/hun foreslår noe. Kari er i utgangspunktet negativ til nye møter og videre oppfølging, men dersom jobbkonsulenten på en veldig tydelig og respektfull måte viser hvordan samarbeid kan tilpasses butikkens behov og redusere risiko, kan hun motvillig gå med på et nytt kort møte og være med på å finne et konkret tidspunkt.",
+          "Jobbkonsulenten kommer til et møte med en daglig leder som er skeptisk på grunn av tidligere negative erfaringer med tiltak. Hun presenterer seg uten navn og uttrykker tidlig at tidligere erfaringer har kostet mer enn de har gitt. Navnet hennes (Kari Johansen) kommer først fram hvis jobbkonsulenten viser oppriktig interesse for hennes erfaringer, anerkjenner risiko og lytter nøye før han/hun foreslår noe. Kari er i utgangspunktet negativ til nye møter og videre oppfølging, men dersom jobbkonsulenten på en veldig tydelig og respektfull måte viser hvordan kontakten kan tilpasses butikkens behov og fokusere på ordinære ansettelser, kan hun motvillig gå med på et nytt kort møte og være med på å finne et konkret tidspunkt.",
         shortDescription:
-          "Du møter en skeptisk daglig leder med dårlige erfaringer fra tidligere samarbeid og prøver å utforske butikkens situasjon og behov.",
+          "Du møter en skeptisk daglig leder med dårlige erfaringer fra tidligere og prøver å utforske butikkens situasjon og behov.",
         managerName: "Kari Johansen",
       },
     },
@@ -175,23 +175,23 @@ export const PHASES: Phase[] = [
     scenarios: {
       Easy: {
         description:
-          "Daglig leder Kari Johansen har allerede hatt et godt samarbeid med jobbkonsulenten og ønsker å holde relasjonen varm, også når det ikke er umiddelbart behov for flere ansatte. Jobbkonsulenten kommer tilbake for å følge opp dialogen, oppsummere erfaringer og utforske hvordan samarbeidet kan gi verdi framover, for eksempel gjennom fleksibel ekstrahjelp, sesongarbeid eller tidlig varsling ved nye behov. Kari er positiv, bruker navnet sitt aktivt i relasjonen og foreslår selv videre dialog, som faste korte oppfølgingsmøter, og er fleksibel med å finne tidspunkt som passer begge.",
+          "Daglig leder Kari Johansen kjenner jobbkonsulenten fra før og ønsker å holde dialogen varm, også når det ikke er umiddelbart behov for flere ansatte. Jobbkonsulenten kommer tilbake for å følge opp, oppsummere erfaringer og utforske mulige fremtidige ansettelser i ordinære stillinger, for eksempel fleksibel ekstrahjelp, sesongarbeid eller tidlig varsling når stillinger blir ledige. Kari er positiv, bruker navnet sitt aktivt i relasjonen og foreslår selv videre dialog, som faste korte oppfølgingsmøter, og er fleksibel med å finne tidspunkt som passer begge.",
         shortDescription:
-          "Du følger opp en eksisterende relasjon til Rema 1000 for å holde samarbeidet varmt og utforske videre muligheter.",
+          "Du følger opp en eksisterende relasjon til Rema 1000 for å holde dialogen varm og utforske fremtidige ansettelsesmuligheter.",
         managerName: "Kari Johansen",
       },
       Moderate: {
         description:
-          "Daglig leder har vært nøktern til videre samarbeid fordi hun er usikker på framtidig bemanningsbehov og økonomi. Hun omtaler seg som daglig leder og oppgir navnet sitt (Kari Johansen) dersom jobbkonsulenten spør på en god måte. Hun er avventende til hyppige møter, men dersom jobbkonsulenten tydelig viser hvordan korte, målrettede oppfølgingsmøter kan gjøre det enklere å reagere raskt når behov oppstår, og hvordan det kan spare tid på sikt, vil hun være villig til å planlegge jevnlig, men slank oppfølging og være med på å finne passende tidspunkt.",
+          "Daglig leder har vært nøktern til videre kontakt fordi hun er usikker på framtidig bemanningsbehov og økonomi. Hun omtaler seg som daglig leder og oppgir navnet sitt (Kari Johansen) dersom jobbkonsulenten spør på en god måte. Hun er avventende til hyppige møter, men dersom jobbkonsulenten tydelig viser hvordan korte, målrettede oppfølgingsmøter kan gjøre det enklere å reagere raskt når ordinære stillinger blir ledige, og hvordan det kan spare tid på sikt, vil hun være villig til å planlegge jevnlig, men slank oppfølging og være med på å finne passende tidspunkt.",
         shortDescription:
-          "Du forsøker å etablere en videre samarbeidsrelasjon med daglig leder selv om hun er usikker på framtidig bemanningsbehov.",
+          "Du forsøker å etablere en videre relasjon med daglig leder selv om hun er usikker på framtidig bemanningsbehov.",
         managerName: "Kari Johansen",
       },
       Difficult: {
         description:
-          "Et tidligere samarbeid har vært krevende, og daglig leder opplever at relasjonen til tiltaksarrangør er anstrengt. Hun oppgir ikke navnet sitt spontant og uttrykker tvil om det er hensiktsmessig å fortsette samarbeidet. Jobbkonsulenten må bruke teknikkene svært godt – utforske hennes opplevelse av samarbeidet, anerkjenne kritikk, og komme med konkrete forslag til justeringer i kommunikasjon, oppfølging og forventningsavklaringer. Ved svært god tilnærming kan hun både oppgi navnet sitt (Kari Johansen) og gå med på et kort, målrettet møte for å «nullstille» samarbeidet og avtale nye rammer, og hun vil da være med på å finne et konkret tidspunkt.",
+          "Tidligere kontakt har vært krevende, og daglig leder opplever at relasjonen er anstrengt. Hun oppgir ikke navnet sitt spontant og uttrykker tvil om det er hensiktsmessig å fortsette dialogen. Jobbkonsulenten må bruke teknikkene svært godt – utforske hennes opplevelse, anerkjenne kritikk, og komme med konkrete forslag til justeringer i kommunikasjon og forventningsavklaringer. Ved svært god tilnærming kan hun både oppgi navnet sitt (Kari Johansen) og gå med på et kort, målrettet møte for å «nullstille» dialogen og avtale nye rammer, og hun vil da være med på å finne et konkret tidspunkt.",
         shortDescription:
-          "Du prøver å reparere og videreutvikle relasjonen til Rema 1000 etter et samarbeid som har vært krevende.",
+          "Du prøver å reparere og videreutvikle relasjonen til Rema 1000 etter at tidligere kontakt har vært krevende.",
         managerName: "Kari Johansen",
       },
     },

@@ -272,10 +272,11 @@ export default function SimulatorPage() {
           </h1>
           <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
             Du er en jobbkonsulent som skal gjennomføre samtaler med en arbeidsgiver.
-            Du må først velge fase og vanskelighetsgrad. Deretter starter du samtalen
-            ved å skrive inn tekst i meldingsfeltet. Når du avslutter samtalen får du
-            en rapport som du kan bruke til å forbedre deg. Husk å bruke
-            jobbutviklings-teknikkene. Lykke til!
+            Målet er å bli bedre kjent med arbeidsgiveren og på sikt matche jobbsøkere
+            til <strong>ordinært, lønnet arbeid</strong> – ikke arbeidspraksis eller andre tiltak.
+            Velg fase og vanskelighetsgrad, og start samtalen ved å skrive i meldingsfeltet.
+            Når du avslutter får du en rapport du kan bruke til å forbedre deg.
+            Husk å bruke jobbutviklings-teknikkene. Lykke til!
           </p>
         </div>
 
