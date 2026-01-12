@@ -263,11 +263,11 @@ export default function SimulatorPage() {
           <Image
             src="/fretex.png"
             alt="Fretex"
-            width={180}
-            height={180}
+            width={280}
+            height={280}
             className="mx-auto mb-6"
           />
-          <h1 className="text-4xl font-bold text-slate-800 mb-4">
+          <h1 className="text-2xl font-bold text-slate-800 mb-4">
             Jobbutvikling-simulator
           </h1>
           <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
