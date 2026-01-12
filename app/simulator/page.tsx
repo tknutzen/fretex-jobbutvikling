@@ -265,7 +265,7 @@ export default function SimulatorPage() {
             alt="Fretex"
             width={280}
             height={280}
-            className="mx-auto mb-6"
+            className="mx-auto mb-6 w-auto h-auto"
           />
           <h1 className="text-2xl font-bold text-slate-800 mb-4">
             Jobbutvikling-simulator
